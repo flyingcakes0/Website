@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark" lang="en" style="--bs-primary: #d99e82; --bs-primary-rgb: 217,158,130;" data-bss-forced-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact Us - Easy Epic Guides</title>
+    <link rel="canonical" href="https://easyepicguides.xyz/contact.html">
+    <meta property="og:url" content="https://easyepicguides.xyz/contact.html">
+    <meta name="description" content="Get in touch with us using our contact form for any inquiries or feedback.">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/guide-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,600,700,800&display=swap">
+    <link rel="stylesheet" href="css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #888; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        body { background-color: #121212; color: #fff; font-family: 'Inter', sans-serif; }
+        h2, h3, label { color: #d99e82; }
+        .section-text { color: #ccc; }
+        .form-control, .btn-primary { background-color: #333; border: none; color: #fff; }
+        .btn-primary:hover { background-color: #555; }
+        .form-label { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+<header class="bg-dark">
+    <nav class="navbar navbar-expand-md bg-dark py-3 navbar-dark">
+        <div class="container">
+            <img width="37" height="37" src="images/guide-icon.png" style="height: 32px; width: 32px;">
+            <a class="navbar-brand d-flex align-items-center" href="https://easyepicguides.xyz/">
+                <span>📘&nbsp;Easy Epic Guides</span>
+            </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="soldering-headers-on-pcb.html">Soldering Headers on PCB</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container my-5">
+    <h1 class="text-center mb-4">Contact Us</h1>
+    <div class="section" id="contact">
+        <form action="send_mail.php" method="POST">
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject:</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</main>
+<footer class="bg-dark text-center py-4">
+    <div>&copy; 2024 Easy Epic Guides</div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
